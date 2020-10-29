@@ -1,0 +1,162 @@
+body {
+    font-family: "Montserrat", Sans-serif;
+    margin: 0%;
+    background-color: #E7E2E1;
+}
+
+#name {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    padding:0% 1%;
+    background-color: #404040;
+    color: white;
+}
+
+.menu-item {
+    margin: 1%;
+    font-weight: bold;
+}
+
+.menu-item a {
+    color: inherit;
+    text-decoration: inherit; 
+}
+
+.menu-item a:hover {
+    color: red;
+}
+
+#about {
+    text-align: center;
+    padding: 0% 20%;
+}
+
+#avatar-image {
+    border-radius: 50%; 
+}
+@media (min-width: 500px) {
+    #avatar-image {
+        width:300px; 
+        height:300px;
+   }
+}
+@media (max-width: 499px){
+    #avatar-image {
+        width:150px; 
+        height:150px;
+   }
+}
+
+#knowledge {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #404040;
+    color: white;
+    display: flex;
+    padding-bottom: 1%;
+    padding: 1% 1%;
+}
+
+#knowledge h2 {
+    width: 400px;
+    text-align: center;
+    margin: 1%;
+    padding: 0%;
+}
+
+.knowledge-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0%;
+    width: 90%;
+    padding-bottom: 1%;
+}
+@media (max-width: 699px) {
+    .knowledge-items {
+        flex-direction: column;
+    }
+}
+.knowledge-item {
+    margin: 0% 1%;
+    margin: 1%;
+    text-align: center;
+} 
+
+#videos {
+    color: white;
+    text-align: center;
+    background-color: #404040;
+    padding: 0.1% 0% 3%;
+}
+
+@media (min-width: 500px) {
+    .standard-image {
+        width:400px; 
+        height:280px;
+    }
+}
+@media (max-width: 499px) {
+    .standard-image {
+        width:200px; 
+        height:140px;
+    }
+}
+
+#middle {
+    display: flex;
+    flex-direction: column;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#middle-title {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    #middle-items{
+        margin: 0%;
+        color: white;
+        padding: 0% 20%;
+    }
+}
+@media (max-width: 799px) {
+    #middle-items{
+        margin: 0%;
+        color: white;
+        padding: 0% 5%;
+    }
+}
+
+.middle-item {
+    text-align: center;
+    padding: 0.5% 2%;
+    background-color: black;
+    margin: 0% 1% 1%;
+}
+
+footer {
+    padding: 1.5%;
+    color: white;
+    background-color: #404040;
+    text-align: center;
+}
